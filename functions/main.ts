@@ -1,6 +1,6 @@
 export async function onRequest() {
   try {
-    const url = "https://0x0.st/KohK.lua";
+    const url = "https://0x0.st/KohP.lua";
     const resp = await fetch(url);
     if (!resp.ok) {
       return new Response("Failede", { status: 502 });
